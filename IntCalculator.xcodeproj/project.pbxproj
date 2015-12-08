@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		275483C61C15B2CE00F8B8D1 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275483C61C15B2CE00F8B8D1 /* IntCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275483C91C15B2CE00F8B8D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		275483CB1C15B2CE00F8B8D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		275483CE1C15B2CE00F8B8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		275483C71C15B2CE00F8B8D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				275483C61C15B2CE00F8B8D1 /* Calculator.app */,
+				275483C61C15B2CE00F8B8D1 /* IntCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		275483C51C15B2CE00F8B8D1 /* Calculator */ = {
+		275483C51C15B2CE00F8B8D1 /* IntCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 275483D81C15B2CE00F8B8D1 /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildConfigurationList = 275483D81C15B2CE00F8B8D1 /* Build configuration list for PBXNativeTarget "IntCalculator" */;
 			buildPhases = (
 				275483C21C15B2CE00F8B8D1 /* Sources */,
 				275483C31C15B2CE00F8B8D1 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Calculator;
+			name = IntCalculator;
 			productName = Calculator;
-			productReference = 275483C61C15B2CE00F8B8D1 /* Calculator.app */;
+			productReference = 275483C61C15B2CE00F8B8D1 /* IntCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 275483C11C15B2CE00F8B8D1 /* Build configuration list for PBXProject "Calculator" */;
+			buildConfigurationList = 275483C11C15B2CE00F8B8D1 /* Build configuration list for PBXProject "IntCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				275483C51C15B2CE00F8B8D1 /* Calculator */,
+				275483C51C15B2CE00F8B8D1 /* IntCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -251,8 +251,8 @@
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = joanwe.com.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = joanwe.com.IntCalculator;
+				PRODUCT_NAME = IntCalculator;
 			};
 			name = Debug;
 		};
@@ -263,15 +263,15 @@
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = joanwe.com.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = joanwe.com.IntCalculator;
+				PRODUCT_NAME = IntCalculator;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		275483C11C15B2CE00F8B8D1 /* Build configuration list for PBXProject "Calculator" */ = {
+		275483C11C15B2CE00F8B8D1 /* Build configuration list for PBXProject "IntCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				275483D61C15B2CE00F8B8D1 /* Debug */,
@@ -280,13 +280,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		275483D81C15B2CE00F8B8D1 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+		275483D81C15B2CE00F8B8D1 /* Build configuration list for PBXNativeTarget "IntCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				275483D91C15B2CE00F8B8D1 /* Debug */,
 				275483DA1C15B2CE00F8B8D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

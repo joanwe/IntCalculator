@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     var clear = true
     var sum = 0
     var key = 0 //1加2减3乘4除
-
     @IBAction func Number(sender: UIButton) {
         sender.showsTouchWhenHighlighted = true
         if clear {
@@ -28,15 +27,12 @@ class ViewController: UIViewController {
         }
         
            }
-    
     @IBAction func Equal() {
         Method()
         key = 0
     }
-  
     @IBOutlet weak var Display: UILabel!
     @IBOutlet weak var Reset: UIButton!
-    
     @IBOutlet weak var Acc: UIButton!
     @IBAction func Judge(sender: UIButton) {
         sender.showsTouchWhenHighlighted = true
